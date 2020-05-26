@@ -49,7 +49,7 @@ if(x==1):
     from sklearn.metrics import accuracy_score
     accuracy=accuracy_score(y_test,y_pred)
     print(accuracy)
-    if (accuracy>80):
+    if (accuracy>0.80):
          break
 
 
